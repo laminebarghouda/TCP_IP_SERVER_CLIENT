@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/lamin/CLionProjects/TCP_IP_Server_Client/Client.cpp" "C:/Users/lamin/CLionProjects/TCP_IP_Server_Client/cmake-build-debug/CMakeFiles/TCP_IP_Server_Client.dir/Client.cpp.obj"
-  "C:/Users/lamin/CLionProjects/TCP_IP_Server_Client/Comms.cpp" "C:/Users/lamin/CLionProjects/TCP_IP_Server_Client/cmake-build-debug/CMakeFiles/TCP_IP_Server_Client.dir/Comms.cpp.obj"
-  "C:/Users/lamin/CLionProjects/TCP_IP_Server_Client/Server.cpp" "C:/Users/lamin/CLionProjects/TCP_IP_Server_Client/cmake-build-debug/CMakeFiles/TCP_IP_Server_Client.dir/Server.cpp.obj"
-  "C:/Users/lamin/CLionProjects/TCP_IP_Server_Client/main.cpp" "C:/Users/lamin/CLionProjects/TCP_IP_Server_Client/cmake-build-debug/CMakeFiles/TCP_IP_Server_Client.dir/main.cpp.obj"
+  "C:/Users/lamin/OneDrive/Desktop/TCP_IP_SERVER_CLIENT/Client.cpp" "C:/Users/lamin/OneDrive/Desktop/TCP_IP_SERVER_CLIENT/cmake-build-debug/CMakeFiles/TCP_IP_Server_Client.dir/Client.cpp.obj"
+  "C:/Users/lamin/OneDrive/Desktop/TCP_IP_SERVER_CLIENT/Comms.cpp" "C:/Users/lamin/OneDrive/Desktop/TCP_IP_SERVER_CLIENT/cmake-build-debug/CMakeFiles/TCP_IP_Server_Client.dir/Comms.cpp.obj"
+  "C:/Users/lamin/OneDrive/Desktop/TCP_IP_SERVER_CLIENT/Server.cpp" "C:/Users/lamin/OneDrive/Desktop/TCP_IP_SERVER_CLIENT/cmake-build-debug/CMakeFiles/TCP_IP_Server_Client.dir/Server.cpp.obj"
+  "C:/Users/lamin/OneDrive/Desktop/TCP_IP_SERVER_CLIENT/main.cpp" "C:/Users/lamin/OneDrive/Desktop/TCP_IP_SERVER_CLIENT/cmake-build-debug/CMakeFiles/TCP_IP_Server_Client.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

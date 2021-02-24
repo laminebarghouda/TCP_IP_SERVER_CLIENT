@@ -37,7 +37,7 @@ void Client::run() {
     }
 
     // Do-while loop to send and receive data
-    char buf[4096];
+    char buf[8192];
     string userInput;
 
     do
@@ -56,8 +56,8 @@ void Client::run() {
             if (sendResult != SOCKET_ERROR)
             {
                 // Wait for response
-                ZeroMemory(buf, 4096);
-                int bytesReceived = recv(sock, buf, 4096, 0);
+                ZeroMemory(buf, 8192);
+                int bytesReceived = recv(sock, buf, 8192, 0);
                 if (bytesReceived > 0)
                 {
                     // Echo response to console

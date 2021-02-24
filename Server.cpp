@@ -18,7 +18,7 @@ void Server::run() {
 
     // Create a socket
     SOCKET listening = socket(AF_INET, SOCK_STREAM, 0);
-    if (listening == INVALID_SOCKET)
+    if (listening == INVALID_SOCKET || listening == ERROR_INVALID_ACCESS)
     {
         cerr << "Can't create a socket! Quitting" << endl;
         return ;
@@ -45,15 +45,15 @@ void Server::run() {
     closesocket(listening);
 
     // While loop: accept and echo message back to client
-    char buf[4096];
+    char buf[8192];
 
     while (true)
     {
-        ZeroMemory(buf, 4096);
+        ZeroMemory(buf, 8192);
 
         // Wait for client to send data
-        int bytesReceived = recv(clientSocket, buf, 4096, 0);
-        if (bytesReceived == SOCKET_ERROR)
+        int bytesReceived = recv(clientSocket, buf, 8192, 0);
+        if (bytesReceived == SOCKET_ERROR || bytesReceived == ERROR_INVALID_ACCESS)
         {
             cerr << "Error in recv(). Quitting" << endl;
             break;
